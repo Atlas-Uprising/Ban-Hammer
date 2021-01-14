@@ -67,8 +67,12 @@ function SWEP:PrimaryAttack()
 	    if self.Owner:GetPos():Distance(tr.Entity:GetPos()) < 80 and tr.Entity:IsPlayer() then
 	        if not banhammer_cooldown then
 		        banhammer_cooldown = true
-			    timer.Simple(1, function() banhammer_cooldown = false end)
-		        self.Owner:ConCommand("ulx banid " .. tr.Entity:SteamID() .. " " .. BanHammer_Config.BanTime .. " " .. BanHammer_Config.BanReason)
+				timer.Simple(1, function() banhammer_cooldown = false end)
+				if istable(ULib) then
+					self.Owner:ConCommand("ulx banid " .. tr.Entity:SteamID() .. " " .. BanHammer_Config.BanTime .. " " .. BanHammer_Config.BanReason)
+				elseif istable(SAM) then
+					self.Owner:ConCommand("sam banid " .. tr.Entity:SteamID() .. " " .. BanHammer_Config.BanTime .. " " .. BanHammer_Config.BanReason)
+				end
 		    end
 	    end
 	end

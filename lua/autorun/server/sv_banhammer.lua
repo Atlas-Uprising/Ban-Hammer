@@ -1,4 +1,3 @@
-
 BanHammer_SpawnData = {} 
 BanHammer_Ents = {} 
 
