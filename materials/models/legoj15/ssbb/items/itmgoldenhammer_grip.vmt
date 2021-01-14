@@ -1,0 +1,6 @@
+VertexlitGeneric
+{
+	"$basetexture" "models/legoj15/ssbb/items/itmgoldenhammer_grip"
+	"$bumpmap" "models/legoj15/ssbb/items/itmgoldenhammer_grip_normal"
+	"$normalmap" "models/legoj15/ssbb/items/itmgoldenhammer_grip_normal"
+}

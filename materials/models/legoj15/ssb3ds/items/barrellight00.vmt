@@ -1,0 +1,16 @@
+UnlitGeneric
+{
+	$basetexture	models/legoj15/ssb3ds/items/barrellight00
+	$model	1
+	$additive	1
+	Proxies
+	{
+		TextureScroll
+		{
+			textureScrollVar	$baseTextureTransform
+			textureScrollRate	.3
+			textureScrollAngle	-270
+			
+		}
+	}
+}

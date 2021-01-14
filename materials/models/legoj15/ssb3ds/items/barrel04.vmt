@@ -1,0 +1,6 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/legoj15/ssb3ds/items/barrel04"
+	$detail			"detail\wood_detail_01"
+	$detailblendfactor	0.08
+}

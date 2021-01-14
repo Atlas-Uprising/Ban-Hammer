@@ -1,0 +1,10 @@
+VertexlitGeneric
+{
+	$basetexture		models/legoj15/ssb3ds/items/barrelmark
+	$translucent		1
+	$phong				1
+	$bumpmap			models/legoj15/ssb3ds/items/barrelmark_phongmask
+	$phongexponent		4
+	$phongboost			.5
+	$phongfresnelranges	"[1 2 4]"
+}

@@ -1,0 +1,16 @@
+VertexlitGeneric
+{
+	$basetexture models/legoj15/ssb3ds/items/barrel04
+
+	$phong 1
+
+	$BasemapAlphaPhongMask	1
+	$phongexponent			13
+	$phongexponenttexture	models/legoj15/ssb3ds/items/barrel04
+	$phongboost				1.0
+	$phongfresnelranges		"[0 0.5 1]"
+	
+	$rimlight	1
+	$rimmask	1
+	$rimlightboost          1
+}
