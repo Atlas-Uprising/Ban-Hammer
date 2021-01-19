@@ -25,7 +25,7 @@ if CLIENT then
     }
 end
 
-SWEP.Category = "Ban Hammer Weapon"
+SWEP.Category = "Ban Hammer"
 
 SWEP.ViewModel = "models/weapons/c_stunstick.mdl"
 SWEP.WorldModel = "models/weapons/w_crowbar.mdl"
@@ -64,7 +64,7 @@ function SWEP:PrimaryAttack()
 
 	if SERVER then
 	    self.Owner:EmitSound("weapons/slam/throw.wav")
-	    if self.Owner:GetPos():Distance(tr.Entity:GetPos()) < 80 and tr.Entity:IsPlayer() then
+	    if self.Owner:GetPos():Distance(tr.Entity:GetPos()) < 120 and tr.Entity:IsPlayer() then
 	        if not banhammer_cooldown then
 		        banhammer_cooldown = true
 				timer.Simple(1, function() banhammer_cooldown = false end)
