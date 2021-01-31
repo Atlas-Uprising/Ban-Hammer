@@ -1,9 +1,8 @@
-
 # Ban Hammer
 
 Originally made by [nerzlakai96](https://steamcommunity.com/id/nerzlakai96).
 
-Edited by Atlas Uprising.
+Updated by Atlas Uprising.
 
 ## Features
 

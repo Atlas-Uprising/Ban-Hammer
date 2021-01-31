@@ -1,6 +1,6 @@
 BanHammer_SpawnData = {} 
 BanHammer_Ents = {} 
-
+resource.AddWorkshop( "1303298980" )
 util.AddNetworkString("BanHammer_AddSpawn")
 util.AddNetworkString("BanHammer_RemoveSpawn")
 util.AddNetworkString("BanHammer_SendSpawns")
