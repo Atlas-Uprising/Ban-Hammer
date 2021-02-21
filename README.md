@@ -22,7 +22,7 @@ View all spawn points you set up on the map
 `BanHammer_QuitViewSpawns`
 Close all spawn point panels
 ## Installation
-### Workshop
+~~### Workshop~~ _Coming Soon_
 1. Add this workshop addon to your collection.
 2. Subscribe to it
 3. Done!
